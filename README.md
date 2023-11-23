@@ -1,8 +1,7 @@
 # exercicios_python
 Conjunto de exercício retirado do CodeWars ou Hackerrank, para exercitar conceitos básicos da linguagem e versionamento de códigos.
 
-Questão 1 (Strings - regex, list comprehension, testes unitários):
-  https://www.codewars.com/kata/6512b3775bf8500baea77663
+Questão 1 (Strings - regex, list comprehension, testes unitários): https://www.codewars.com/kata/6512b3775bf8500baea77663
   
     Given a string indicating a range of letters, return a string which includes all the letters in that range, including the last letter. 
     Note that if the range is given in capital letters, return the string in capitals also!
@@ -13,8 +12,7 @@ Questão 1 (Strings - regex, list comprehension, testes unitários):
       ABCDEFGHIJKLMNOPQRSTUVWXYZa
       
 
-Questão 2 (Strings - list comprehension, testes unitários):
-  https://www.hackerrank.com/challenges/text-wrap/problem?isFullScreen=true
+Questão 2 (Strings - list comprehension, testes unitários): https://www.hackerrank.com/challenges/text-wrap/problem?isFullScreen=true
   
     You are given a string, line width and paragraph height.
     Your task is to wrap the string into paragraph(s).
@@ -37,8 +35,8 @@ Questão 3 (Estrutura de dados - POO):
       Linked Lists - Length & Count
       Implement Length() to count the number of nodes in a linked list.
 
-Questão 4 (Listas, tuplas, dicionario):
-
+Questão 4 (Listas, tuplas, dicionario): https://www.codewars.com/kata/55f95dbb350b7b1239000030/train/python
+  
     We need a function that receives an array or list of integers (positive and negative) and may give us the following information in the order and structure presented below:
     [(1), (2), (3), [[(4)], 5]]
       (1) - Total amount of received integers.
