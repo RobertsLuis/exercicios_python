@@ -20,7 +20,7 @@ def expandir_range(intervalo):
     """
     padrao = re.compile(r'^[a-zA-Z]-[a-zA-Z]$')
     if not(padrao.match(intervalo)):
-        raise Exception('O range especificado está fora do padrão "a-z"/"A-z"/"A-Z"')
+        raise Exception('O intervalo especificado está fora do padrão "a-z"/"A-z"/"A-Z"')
     inicio, fim = intervalo.split('-')
     if ord(inicio) > ord(fim):
         fim, inicio = inicio, fim
