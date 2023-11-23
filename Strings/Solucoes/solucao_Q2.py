@@ -21,7 +21,6 @@ def organizar_texto_em_paragrafo(texto, largura_linha, altura_paragrafo):
     """
     palavras = texto.split()
     info_palavras = [(palavra, len(palavra)) for palavra in palavras]
-    print(palavras)
     linhas = [""]
     for palavra, tamanho_palavra in info_palavras:
         tamanho_linha_atual = len(linhas[-1])

@@ -14,6 +14,7 @@ class TestExpandirRange(unittest.TestCase):
     def test_organizar_texto(self):
         textos_teste = [
             (("Cinco Cinco Cinco Cinco Cinco Cinco Cinco Cinco", 12, 2), "Cinco Cinco\nCinco Cinco\n\nCinco Cinco\nCinco Cinco"),
+            (("Cinco Cinco Cinco Cinco cinco", 12, 2), "Cinco Cinco\nCinco Cinco\n\nCinco")
         ]
         for argumentos_modelo, resultado_correto in textos_teste:
             with self.subTest(textos=argumentos_modelo):
