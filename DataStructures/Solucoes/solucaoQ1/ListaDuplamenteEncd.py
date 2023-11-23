@@ -6,6 +6,18 @@ class Nodo:
 
 
 class Aluno:
+    """Objeto que será armazenado na lista
+
+    Args:
+        nome str:  Nome que será vinculado ao aluno.
+
+    Atributos:
+        nome str
+        ID int: Numero inteiro que será atribuido a medida que o aluno for inserido na ListaDupla
+
+    Metodos:
+        __str__(): Retorna uma representação, em string, de todos os atributos do aluno.
+    """
     def __init__(self, nome):
         self.nome = nome
         self.ID = None
@@ -14,6 +26,18 @@ class Aluno:
 
 
 class ListaDupla:
+    """Implementação de uma lista duplamente encadeada.
+
+    Methods:
+        add_begin(aluno): Adiciona um aluno no início da lista.
+        add_end(aluno): Adiciona um aluno no final da lista.
+        add_in_pos(aluno, pos): Adiciona um aluno em uma posição específica da lista.
+        remove_begin(): Remove o primeiro aluno da lista.
+        remove_end(): Remove o último aluno da lista.
+        remove_by_pos(pos): Remove o aluno na posição especificada da lista.
+        remove_by_element(aluno): Remove o aluno especificado da lista.
+        exibir(): Exibe a lista de alunos.
+    """
     def __init__(self):
         self.inicio = None
         self.fim = None
